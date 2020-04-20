@@ -24,15 +24,16 @@ public class CreateSpaServices{
         //erasing the enter key hit
         keyboard.nextLine();
 
-        //doing it again for the secondService
-        System.out.print("Enter Service >> ");
-        service = keyboard.nextLine();
-        System.out.print("Enter price >> ");
-        price = keyboard.nextDouble();
+        //commented out to prove there are default values
+        // //doing it again for the secondService
+        // System.out.print("Enter Service >> ");
+        // service = keyboard.nextLine();
+        // System.out.print("Enter price >> ");
+        // price = keyboard.nextDouble();
     
-        //setting secondService
-        secondService.setServiceDescription(service);
-        secondService.setPrice(price);
+        // //setting secondService
+        // secondService.setServiceDescription(service);
+        // secondService.setPrice(price);
 
         //displaying the firstService
         System.out.println("First service details:");

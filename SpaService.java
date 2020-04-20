@@ -4,6 +4,11 @@ public class SpaService{
     private String serviceDescription;
     private double price;
     
+    //setting default values for a SpaService
+    public SpaService(){
+        serviceDescription = "XXX";
+        price = 0;
+    }
     // Making set methods
     public void setServiceDescription(String service){
         serviceDescription = service;
